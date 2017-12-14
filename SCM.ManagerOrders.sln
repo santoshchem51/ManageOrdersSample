@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{7A98FCEA-8333-4F50-914B-1FDBA6274690}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D66B5167-72C5-4D97-9E14-ACC0C083C1A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCM.ManageOrders.Core", "SCM.ManageOrders.Core\SCM.ManageOrders.Core.csproj", "{C68C95F8-112F-4B2D-8702-45E7C34F6CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCM.ManageOrders.Web", "SCM.ManageOrders.Web\SCM.ManageOrders.Web.csproj", "{B372A1CB-11E1-424D-ADA2-68AEB6EE6862}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C68C95F8-112F-4B2D-8702-45E7C34F6CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68C95F8-112F-4B2D-8702-45E7C34F6CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68C95F8-112F-4B2D-8702-45E7C34F6CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68C95F8-112F-4B2D-8702-45E7C34F6CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B372A1CB-11E1-424D-ADA2-68AEB6EE6862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B372A1CB-11E1-424D-ADA2-68AEB6EE6862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B372A1CB-11E1-424D-ADA2-68AEB6EE6862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B372A1CB-11E1-424D-ADA2-68AEB6EE6862}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C68C95F8-112F-4B2D-8702-45E7C34F6CC7} = {D66B5167-72C5-4D97-9E14-ACC0C083C1A0}
+		{B372A1CB-11E1-424D-ADA2-68AEB6EE6862} = {7A98FCEA-8333-4F50-914B-1FDBA6274690}
+	EndGlobalSection
+EndGlobal

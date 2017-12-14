@@ -1,0 +1,21 @@
+﻿@using System.Web.Mvc.Ajax
+@model SCM.ManageOrders.Web.Models.MangeOrdersViewModel
+@{
+    ViewBag.Title = "Manage Orders";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Manage Order</h2>
+
+<div id="orderList">
+
+</div>
+@Ajax.ActionLink("GetAllOrders", "GetAllOrders",new AjaxOptions()
+{
+    InsertionMode   = InsertionMode.Replace,
+    UpdateTargetId = "orderList",
+    OnSuccess = "hideLinks();"
+})
+
+<script type="text/javascript">
+    
+</script>

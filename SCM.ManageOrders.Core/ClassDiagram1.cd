@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SCM.ManageOrders.Core.Enumerators.ManageOrderEnums">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SCM.ManageOrders.Core.Enumerators.ManageOrderEnums.eOrderTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Enumerators\ManageOrderEnums.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumerators\ManageOrderEnums.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCM.ManageOrders.Core.Models.Base.BaseOrder">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAgAAAAAAUIgAAAAAAAAQAAAABAA=</HashCode>
+      <FileName>Models\Base\BaseOrder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SCM.ManageOrders.Core.Models.CreditCheckOrder">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Orders\CreditCheckOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCM.ManageOrders.Core.Models.Service" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SCM.ManageOrders.Core.Models.Orders.CriminalReportOrder">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Orders\CriminalReportOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCM.ManageOrders.Core.Models.Orders.ParamedOrder">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Models\Orders\ParamedOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCM.ManageOrders.Core.Models.Repository.OrderRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAgAAAADAAAAA=</HashCode>
+      <FileName>Models\Repository\OrderRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="SCM.ManageOrders.Core.Interfaces.IDataContext" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDataContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SCM.ManageOrders.Core.Interfaces.IOrder" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAUAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOrder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SCM.ManageOrders.Core.Interfaces.IOrderActions" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAIAAAAAAAAAQAAAABAA=</HashCode>
+      <FileName>Interfaces\IOrderActions.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SCM.ManageOrders.Core.Interfaces.IOrderRepository" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Interfaces\IOrderRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SCM.ManageOrders.Core.Interfaces.IService" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

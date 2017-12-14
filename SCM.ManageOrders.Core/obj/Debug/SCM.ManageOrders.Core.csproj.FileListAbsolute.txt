@@ -1,0 +1,4 @@
+c:\users\santoshk\documents\visual studio 2015\Projects\SCM.ManagerOrders.Web\SCM.ManageOrders.Core\bin\Debug\SCM.ManageOrders.Core.dll
+c:\users\santoshk\documents\visual studio 2015\Projects\SCM.ManagerOrders.Web\SCM.ManageOrders.Core\bin\Debug\SCM.ManageOrders.Core.pdb
+c:\users\santoshk\documents\visual studio 2015\Projects\SCM.ManagerOrders.Web\SCM.ManageOrders.Core\obj\Debug\SCM.ManageOrders.Core.dll
+c:\users\santoshk\documents\visual studio 2015\Projects\SCM.ManagerOrders.Web\SCM.ManageOrders.Core\obj\Debug\SCM.ManageOrders.Core.pdb
