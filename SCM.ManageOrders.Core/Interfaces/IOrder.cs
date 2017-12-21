@@ -14,5 +14,7 @@ namespace SCM.ManageOrders.Core.Interfaces
         string CustomerName { get; set; }
         int AccountNumber { get; set; }
         List<IService> OrderServices { get; set; } 
+
+
     }
 }
